@@ -1,0 +1,7 @@
+{
+  "name": "Forever Wala Valentine",
+  "description": "A romantic and interactive Valentine's Day application with a playful 'Yes/No' proposal, memory gallery, and AI-powered love letter generator.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
