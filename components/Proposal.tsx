@@ -43,7 +43,7 @@ const Proposal: React.FC = () => {
     <div className="bg-white/90 backdrop-blur-xl p-10 md:p-16 rounded-[3rem] shadow-[0_20px_50px_rgba(255,182,193,0.5)] border-4 border-pink-100 text-center max-w-xl mx-4 transform">
       <div className="text-6xl mb-6">💍</div>
       <h1 className="text-4xl md:text-6xl font-romantic text-pink-600 mb-6 leading-tight">
-        Mara Forever Wala <br/> Madam Ji Banso? 
+        Hve Thi Tame Mara Forever Wala Madam Ji 😌
       </h1>
       <p className="text-pink-400 mb-12 text-lg italic font-medium">I promise to be your favorite distraction forever! 😁👉🏻👈🏻</p>
       
