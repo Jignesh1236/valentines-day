@@ -27,7 +27,7 @@ const Proposal: React.FC = () => {
         <div className="relative">
           <div className="absolute inset-0 bg-pink-400 blur-3xl opacity-30 animate-pulse rounded-full"></div>
           <img 
-            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQm5nGi5Dt2Pcm5dSm1pKrdcRQmT2OzCDYk4A&shttps://media.gifdb.com/cute-anime-umaru-happy-hug-jc2op6yu2y2pvfxk.gif" 
+            src="https://github.com/Jignesh1236/valentines-day/blob/main/components/ezgif-5c8972bf17bb7aab.gif" 
             alt="Love" 
             className="relative z-10 w-72 h-72 rounded-full border-8 border-white shadow-2xl object-cover"
           />
