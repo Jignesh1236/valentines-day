@@ -33,7 +33,7 @@ const App: React.FC = () => {
           className="bg-white/80 backdrop-blur-md p-10 rounded-2xl shadow-2xl border-4 border-dashed border-pink-300 text-center cursor-pointer hover:rotate-2 transition-transform group"
         >
           <div className="text-8xl mb-4 group-hover:scale-110 transition-transform">✉️</div>
-          <h1 className="text-3xl font-romantic text-pink-600">Aapke Liye Ek Chota Sa Tohfa...</h1>
+          <h1 className="text-3xl font-romantic text-pink-600">Madam Ji Jara Yeh Open To Karo...</h1>
           <p className="text-gray-400 mt-2">Click to Open</p>
         </div>
       </div>
