@@ -4,10 +4,10 @@ import FloatingHearts from './components/FloatingHearts';
 import Proposal from './components/Proposal';
 
 const memories = [
-  "Tumhari smile duniya ki sabse pyari cheez hai. ✨",
-  "The way you care about small things makes me fall for you again. 🌹",
-  "Humari baatein, humari ladaiyan, sab kuch special hai. 💖",
-  "I just want to be the reason behind your happiness, always. 🥂"
+  "Goddess Ji Me Tamne Dekhi Che Tya Thi Dil Ma Something Somthing Thai Che 🤌🏻",
+  "Madam Ji Tame Mane Roj J Selfie Ane Videos Moklo Cho Ea Mara Mate Savthi Important Moment Hoye Che 😁🤌🏻",
+  "Goddess Ji Tame Mara Mate Bv J Special Cho 😌",
+  "Goddess Ji Mane Tamari Care Krvi Che Ne Tamne Proper Goddess Tretment Aapvi Che 🤌🏻"
 ];
 
 const App: React.FC = () => {
