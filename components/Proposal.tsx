@@ -16,7 +16,7 @@ const Proposal: React.FC = () => {
   };
 
   const getNoText = () => {
-    const texts = ["Nahin", "Soch lo...", "Sach mein?", "Dil mat todo 🥺", "Abhi bhi nahin?", "Pakka?", "Maan jao na!", "Madam Ji Hve Tamara પગ Pakdish To Haa Bolso"];
+    const texts = ["Nahin", "Soch lo...", "Sach mein?", "Dil mat todo 🥺", "Abhi bhi nahin?", "Pakka?", "Madam Ji Hve Tamara પગ Pakdish To Haa Bolso"];
     return texts[Math.min(noCount, texts.length - 1)];
   };
 
