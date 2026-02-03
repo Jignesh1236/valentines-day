@@ -23,7 +23,7 @@ const Proposal: React.FC = () => {
   if (accepted) {
     return (
       <div className="text-center animate-fade-in flex flex-col items-center">
-        <h1 className="text-6xl md:text-8xl font-romantic text-pink-600 mb-6 drop-shadow-lg">Haan Keh Diya! 🎉</h1>
+        <h1 className="text-6xl md:text-8xl font-romantic text-pink-600 mb-6 drop-shadow-lg">Hve Thi Tame Mara Forever Wala Madam Ji 😌</h1>
         <div className="relative">
           <div className="absolute inset-0 bg-pink-400 blur-3xl opacity-30 animate-pulse rounded-full"></div>
           <img 
