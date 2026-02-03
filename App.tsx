@@ -7,7 +7,7 @@ const memories = [
   "Goddess Ji Me Tamne Dekhi Che Tya Thi Dil Ma Something Somthing Thai Che 🤌🏻",
   "Madam Ji Tame Mane Roj J Selfie Ane Videos Moklo Cho Ea Mara Mate Savthi Important Moment Hoye Che 😁🤌🏻",
   "Goddess Ji Tame Mara Mate Bv J Special Cho 😌",
-  "Goddess Ji Mane Tamari Care Krvi Che Ne Tamne Proper Goddess Tretment Aapvi Che 🤌🏻"
+  "Goddess Ji Mane Tamari Care Krvi Che Ne Tamne Proper Goddess Tretment Aapvi Che Ne Tamne Nana Baby Ni Jem Pamper Krvi Che Ne Tamne Spoil Bhi Krvi Che 🤌🏻😌"
 ];
 
 const App: React.FC = () => {
