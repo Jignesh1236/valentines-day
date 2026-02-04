@@ -1,36 +1,21 @@
-# Color Theme Change: Pink → Purple
+# TODO - Purple to Pink Theme Change
 
-## Plan
-Change all pink color references to purple throughout the Valentine's Day website.
+## Files to Edit:
+- [x] index.html - Change background color and cursor SVG
+- [x] App.tsx - Change all purple-* classes to pink-*
+- [x] Proposal.tsx - Change all purple-* classes and shadows to pink-*
+- [x] FloatingHearts.tsx - Change text-purple-400 to text-pink-400
 
-## Files to Edit
+## Color Mapping:
+- `purple-300` → `pink-300`
+- `purple-400` → `pink-400`
+- `purple-500` → `pink-500`
+- `purple-600` → `pink-600`
+- `purple-700` → `pink-700`
+- `#a855f7` (purple) → `#ec4899` (pink)
+- `#faf5ff` (light purple bg) → `#fce7f3` (light pink bg)
 
-### 1. index.html
-- [x] Change background from `#fff5f7` to `#faf5ff`
-- [x] Update heart cursor SVG to purple
-- [x] Replace `bg-pink-50` with `bg-purple-50`
+## Status:
+- [x] Task completed
 
-### 2. App.tsx
-- [x] Replace `border-pink-300` with `border-purple-300`
-- [x] Replace `text-pink-600/700/400` with `text-purple-600/700/400`
-- [x] Replace `bg-pink-500/100/300` with `bg-purple-500/100/300`
-- [x] Replace pink shadows and overlays
-
-### 3. components/Proposal.tsx
-- [x] Replace all pink Tailwind classes with purple equivalents
-- [x] Update pink shadows to purple
-
-### 4. components/FloatingHearts.tsx
-- [x] Change heart color to purple
-
-## Color Mapping Reference
-- `pink-300` → `purple-300`
-- `pink-400` → `purple-400`
-- `pink-500` → `purple-500`
-- `pink-600` → `purple-600`
-- `pink-100` → `purple-100`
-- `pink-50` → `purple-50`
-- Pink shadows → Purple shadows
-
-## ✅ All Tasks Completed
 
