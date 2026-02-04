@@ -1,21 +1,15 @@
-# TODO - Purple to Pink Theme Change
+# Fix Deploy 404 Error
 
-## Files to Edit:
-- [x] index.html - Change background color and cursor SVG
-- [x] App.tsx - Change all purple-* classes to pink-*
-- [x] Proposal.tsx - Change all purple-* classes and shadows to pink-*
-- [x] FloatingHearts.tsx - Change text-purple-400 to text-pink-400
+## Issue Identified
+Two problems were causing the 404 error:
 
-## Color Mapping:
-- `purple-300` → `pink-300`
-- `purple-400` → `pink-400`
-- `purple-500` → `pink-500`
-- `purple-600` → `pink-600`
-- `purple-700` → `pink-700`
-- `#a855f7` (purple) → `#ec4899` (pink)
-- `#faf5ff` (light purple bg) → `#fce7f3` (light pink bg)
+1. **Incorrect image paths in App.tsx** - referenced `/components/images/memoryX.jpg` instead of `/memoryX.jpg`
+2. **Images not in public folder** - Vite only copies files from `public/` to build output
 
-## Status:
-- [x] Task completed
+## Fixes Applied
+1. ✅ Changed image path in `App.tsx` from `/components/images/memory${reasonIdx + 1}.jpg` to `/memory${reasonIdx + 1}.jpg`
+2. ✅ Copied memory images to `public/` folder so they get included in build
 
+## Status
+✅ Complete - Project rebuilt successfully with images included in dist/
 

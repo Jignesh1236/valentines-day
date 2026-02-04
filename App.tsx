@@ -42,7 +42,7 @@ const App: React.FC = () => {
       <div className={`chapter-transition absolute inset-0 flex flex-col items-center justify-center ${chapter === 2 ? 'opacity-100 translate-y-0 z-20' : 'opacity-0 translate-y-10 -z-10'}`}>
         <div className="bg-white p-4 md:p-6 rounded shadow-2xl transform -rotate-2 max-w-xs md:max-w-sm w-full border-b-[20px] md:border-b-[40px] border-white">
           <div className="bg-pink-100 h-48 md:h-64 w-full flex items-center justify-center rounded overflow-hidden relative">
-             <img src={`/components/images/memory${reasonIdx + 1}.jpg`} alt="Memory" className="w-full h-full object-cover" />
+             <img src={`/memory${reasonIdx + 1}.jpg`} alt="Memory" className="w-full h-full object-cover" />
              <div className="absolute inset-0 bg-pink-500/10"></div>
           </div>
           <p className="mt-4 md:mt-6 font-romantic text-base md:text-2xl text-center text-pink-700 leading-relaxed">
