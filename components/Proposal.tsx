@@ -23,16 +23,16 @@ const Proposal: React.FC = () => {
   if (accepted) {
     return (
       <div className="text-center animate-fade-in flex flex-col items-center">
-        <h1 className="text-6xl md:text-8xl font-romantic text-pink-600 mb-6 drop-shadow-lg">Hve Thi Tame Mara Forever Wala Madam Ji 😌</h1>
+        <h1 className="text-6xl md:text-8xl font-romantic text-purple-600 mb-6 drop-shadow-lg">Hve Thi Tame Mara Forever Wala Madam Ji 😌</h1>
         <div className="relative">
-          <div className="absolute inset-0 bg-pink-400 blur-3xl opacity-30 animate-pulse rounded-full"></div>
+          <div className="absolute inset-0 bg-purple-400 blur-3xl opacity-30 animate-pulse rounded-full"></div>
           <img 
             src="./components/ezgif-5c8972bf17bb7aab.gif" 
             alt="Love" 
             className="relative z-10 w-72 h-72 rounded-full border-8 border-white shadow-2xl object-cover"
           />
         </div>
-        <p className="mt-8 text-2xl text-pink-500 font-bold bg-white/50 px-6 py-2 rounded-full backdrop-blur-sm">
+        <p className="mt-8 text-2xl text-purple-500 font-bold bg-white/50 px-6 py-2 rounded-full backdrop-blur-sm">
           Ab Hum Forever Saath Hain ❤️
         </p>
       </div>
@@ -40,17 +40,17 @@ const Proposal: React.FC = () => {
   }
 
   return (
-    <div className="bg-white/90 backdrop-blur-xl p-10 md:p-16 rounded-[3rem] shadow-[0_20px_50px_rgba(255,182,193,0.5)] border-4 border-pink-100 text-center max-w-xl mx-4 transform">
+    <div className="bg-white/90 backdrop-blur-xl p-10 md:p-16 rounded-[3rem] shadow-[0_20px_50px_rgba(168,85,247,0.5)] border-4 border-purple-100 text-center max-w-xl mx-4 transform">
       <div className="text-6xl mb-6">💍</div>
-      <h1 className="text-4xl md:text-6xl font-romantic text-pink-600 mb-6 leading-tight">
+      <h1 className="text-4xl md:text-6xl font-romantic text-purple-600 mb-6 leading-tight">
         Hve Thi Tame Mara Forever Wala Madam Ji 😌
       </h1>
-      <p className="text-pink-400 mb-12 text-lg italic font-medium">I promise to be your favorite distraction forever! 😁👉🏻👈🏻</p>
+      <p className="text-purple-400 mb-12 text-lg italic font-medium">I promise to be your favorite distraction forever! 😁👉🏻👈🏻</p>
       
       <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
         <button
           onClick={() => setAccepted(true)}
-          className="w-full sm:w-auto bg-pink-500 hover:bg-pink-600 text-white font-black py-5 px-14 rounded-full transition-all transform hover:scale-125 hover:-rotate-2 shadow-[0_10px_20px_rgba(236,72,153,0.4)] active:scale-95"
+          className="w-full sm:w-auto bg-purple-500 hover:bg-purple-600 text-white font-black py-5 px-14 rounded-full transition-all transform hover:scale-125 hover:-rotate-2 shadow-[0_10px_20px_rgba(147,51,234,0.4)] active:scale-95"
         >
           HAAN! ❤️
         </button>

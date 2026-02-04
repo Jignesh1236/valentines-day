@@ -24,7 +24,7 @@ const FloatingHearts: React.FC = () => {
       {hearts.map(heart => (
         <div
           key={heart.id}
-          className="floating-heart text-red-400 opacity-60"
+          className="floating-heart text-purple-400 opacity-60"
           style={{
             left: `${heart.left}%`,
             fontSize: `${heart.size}px`,
